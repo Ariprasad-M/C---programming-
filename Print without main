@@ -1,0 +1,6 @@
+#include "stdio.h"
+#define Dhoni main
+Dhoni()
+{
+ printf ("captain cool");
+}
