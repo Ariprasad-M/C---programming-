@@ -1,0 +1,8 @@
+#include <stdio.h>
+main()
+{
+ int a= 5, b= 10;
+ b= (a+b)-(a=b); // logic 1
+ a= a*b/(b=a);// logic 2
+ printf ("value of a = %d , value of b = %d",a,b);
+ }
