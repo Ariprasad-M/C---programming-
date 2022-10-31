@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main() 
+{
+    int n,a,b,c,d,sum;
+    scanf("%d", &n);
+    //Complete the code to calculate the sum of the five digits on n.
+    a=n%10;
+    n=n/10;
+    b=n%10;
+    n=n/10;
+    c=n%10;
+    n=n/10;
+    d=n%10;
+    n=n/10;
+    sum= a+b+c+d+n;
+    printf("%d",sum);
+    return 0;
+}
