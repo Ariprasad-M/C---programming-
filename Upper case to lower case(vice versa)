@@ -4,6 +4,6 @@ int main(){
    char ch ;
    printf("enter the character val");
    scanf ("%c",&ch);
-   ch=32+ch;   // ch=32-ch;  (lower case to upper case)
+   ch=32+ch;   // ch=ch-32;  (lower case to upper case)
    printf("%c",ch);
  }
